@@ -5,6 +5,7 @@ function App() {
     <div>
       <PageHeader />
       <p>Page content goes here</p>
+      <p>Another page content goes here</p>
     </div>
   )
 }
