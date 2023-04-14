@@ -1,3 +1,4 @@
+import React from 'react';
 import PageHeader from './components/molecules/PageHeader';
 
 function App() {
@@ -7,7 +8,7 @@ function App() {
       <p>Page content goes here</p>
       <p>Another page content goes here</p>
     </div>
-  )
+  );
 }
 
 export default App;
