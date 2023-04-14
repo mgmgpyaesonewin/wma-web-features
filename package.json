@@ -15,12 +15,10 @@
   },
   "lint-staged": {
     "*.js": [
-      "npm run lint:fix",
-      "git add"
+      "npm run lint"
     ],
     "*.{js,css,md,html,json}": [
-      "npm run prettier:fix",
-      "git add"
+      "npm run prettier"
     ]
   },
   "dependencies": {
