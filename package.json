@@ -14,8 +14,14 @@
     "prepare": "husky install"
   },
   "lint-staged": {
-    "*.js": "npm run lint:fix",
-    "*.{js,css,md,html,json}": "npm run prettier:fix"
+    "*.js": [
+      "npm run lint:fix",
+      "git add"
+    ],
+    "*.{js,css,md,html,json}": [
+      "npm run prettier:fix",
+      "git add"
+    ]
   },
   "dependencies": {
     "react": "^18.2.0",
