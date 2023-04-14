@@ -1,5 +1,5 @@
 import React from 'react';
-import HelloWorld from '../atoms/HelloWorld';
+import HelloWorld from '../atoms/HelloWorld'
 
 function PageHeader() {
   return (

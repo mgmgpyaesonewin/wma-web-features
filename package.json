@@ -7,14 +7,14 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "lint": "eslint .",
+    "lint:check": "eslint .",
     "lint:fix": "eslint --fix .",
-    "lint-staged": "eslint --ignore-path .gitignore --ext .js,.jsx .",
-    "precommit": "lint-staged",
+    "prettier:check": "prettier --check .",
+    "prettier:fix": "prettier --cache --write .",
     "prepare": "husky install"
   },
   "lint-staged": {
-    "*.js": "eslint --fix ",
+    "*.js": "eslint --cache --fix",
     "*.{js,css,md,html,json}": "prettier --cache --write"
   },
   "dependencies": {
