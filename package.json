@@ -14,8 +14,8 @@
     "prepare": "husky install"
   },
   "lint-staged": {
-    "*.js": "eslint --cache --fix",
-    "*.{js,css,md,html,json}": "prettier --cache --write"
+    "*.js": "npm run lint:fix",
+    "*.{js,css,md,html,json}": "npm run prettier:fix"
   },
   "dependencies": {
     "react": "^18.2.0",
