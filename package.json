@@ -19,6 +19,13 @@
     "*.jsx": [
       "npm run lint:check",
       "npm run prettier:check"
+    ],
+    "*.js": [
+      "npm run lint:check",
+      "npm run prettier:check"
+    ],
+    "*.{css,md,html,json}": [
+      "npm run prettier:check"
     ]
   },
   "dependencies": {
