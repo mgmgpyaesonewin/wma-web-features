@@ -16,10 +16,10 @@
     "test:coverage": "vitest run --coverage"
   },
   "lint-staged": {
-    "*.js": [
+    "*.{js, jsx}": [
       "npm run lint:check"
     ],
-    "*.{js,css,md,html,json}": [
+    "*.{js, jsx ,css,md,html,json}": [
       "npm run prettier:check"
     ]
   },
