@@ -17,9 +17,7 @@
   },
   "lint-staged": {
     "*.{js, jsx}": [
-      "npm run lint:check"
-    ],
-    "*.{js, jsx ,css,md,html,json}": [
+      "npm run lint:check",
       "npm run prettier:check"
     ]
   },
